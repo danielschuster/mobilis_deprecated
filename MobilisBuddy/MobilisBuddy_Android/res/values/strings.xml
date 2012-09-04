@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="test_String">test Message</string>
+
+	<!-- general -->
+	<string name="app_name">AndroidBuddy</string>
+	<string name="network_localdb_name">Local Database</string>
+	<string name="network_mb_name">Mobilis</string>
+	<string name="network_fb_name">Facebook</string>
+	<string name="network_std_name">the network</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+
+	<!-- preferences labels -->
+	<string name="pref_title">Preferences</string>
+	<string name="pref_xmpp">XMPP Server Preferences</string>
+	<string name="pref_mobilis">Mobilis Preferences</string>
+	<string name="pref_host_title">XMPP host</string>
+	<string name="pref_host_summary">The XMPP host\'s address</string>
+	<string name="pref_host_dialogtitle">Enter the XMPP host</string>
+	<string name="pref_port_title">Host\'s port</string>
+	<string name="pref_port_summary">The XMPP host\'s port</string>
+	<string name="pref_port_dialogtitle">Enter the host\'s port</string>
+	<string name="pref_service_title">XMPP service name</string>
+	<string name="pref_service_summary">The XMPP service name</string>
+	<string name="pref_service_dialogtitle">Enter the XMPP service name</string>
+	<string name="pref_resource_title">XMPP resource</string>
+	<string name="pref_resource_summary">The client\'s resource</string>
+	<string name="pref_resource_dialogtitle">Enter the client\'s resource name</string>
+	<string name="pref_coordinator_title">Mobilis coordinator</string>
+	<string name="pref_coordinator_summary">The coordinator\'s Jabber ID</string>
+	<string name="pref_coordinator_dialogtitle">Enter the coordinator\'s JID</string>
+	<string name="pref_androidbuddyagent_title">Androidbuddy Agent</string>
+	<string name="pref_androidbuddyagent_summary">The androidbuddy agents\'s Jabber ID</string>
+	<string name="pref_androidbuddyagent_dialogtitle">Enter the androidbuddy agents\'s JID</string>
+	
+	<string name="pref_interest">Interest Settings</string>
+	<string name="pref_popular_title">Popular recommendations</string>
+	<string name="pref_popular_summary">get popular recommendations</string>
+	<string name="pref_popular_dialogtitle">enable checkbox</string>
+	
+	<string name="pref_location_title">Location recommendations</string>
+	<string name="pref_location_summary">get Locations recommendations</string>
+	<string name="pref_location_dialogtitle">enable checkbox</string>
+	
+	<string name="pref_buddies_title">Buddies recommendations</string>
+	<string name="pref_buddies_summary">get Buddies recommendations</string>
+	<string name="pref_buddies_dialogtitle">enable checkbox</string>
+	
+	<string name="pref_similar_title">Similar recommendations</string>
+	<string name="pref_similar_summary">get Similar recommendations</string>
+	<string name="pref_similar_dialogtitle">enable checkbox</string>
+	
+	<string name="pref_random_title">Random recommendations</string>
+	<string name="pref_random_summary">get Random recommendations</string>
+	<string name="pref_random_dialogtitle">enable checkbox</string>
+
+	<!-- dialogs -->
+	<string name="masterlogin_dlg_btn_autocon">Auto Connect</string>
+	<string name="masterlogin_dlg_btn_resetpwd">Reset Device Password</string>
+	<string name="masterlogin_dlg_title">Mobilis Device Password</string>
+	<string name="masterlogin_dlg_txt">Please enter your Mobilis device password to gain access to all locally stored account data.</string>
+	<string name="masterlogin_target">local database</string>
+	<string name="login_dlg_btn_login">Login</string>
+	<string name="stdlogin_dlg_title">Login</string>
+	<string name="stdlogin_dlg_txt_username">Username:</string>
+	<string name="stdlogin_dlg_txt_password">Password:</string>
+	<string name="mblogin_dlg_title">Mobilis Login</string>
+	<string name="mblogin_dlg_txt_username">Mobilis Username (XMPP):</string>
+	<string name="mblogin_dlg_txt_password">Password:</string>
+	<string name="fblogin_dlg_title">Facebook Login</string>
+	<string name="fblogin_dlg_txt_username">Facebook User E-Mail:</string>
+	<string name="fblogin_dlg_txt_password">Password:</string>
+	<string name="login_failure_alert_title">login failed!</string>
+	<string name="login_failure_alert_msg">Please go to Menu -> Accounts and store an appropriate account credential. Also check your settings and network connection.</string>
+	<string name="dlg_title_noresponse">No response</string>
+	<string name="buddylist_head_id">Buddy</string>
+	<string name="buddylist_head_track">Allow global tracking</string>
+
+	<!-- accounts activity -->
+	<string name="acc_act_title">AndroidBuddy - Network Accounts</string>
+	<string name="acc_act_empty_storage">No stored accounts found.</string>
+	<string name="acc_act_txt_storage">Stored Account Credentials:"</string>
+	<string name="acc_act_btn_autocon">Auto Connect</string>
+	<string name="acc_act_btn_selcon">Connect Selected</string>
+	<string name="acc_act_btn_reset">Reset Device Password</string>
+	<string name="acc_act_btn_back">Back to Map</string>
+	<string name="acc_delconfirmdlg_title">Delete Account</string>
+	<string name="acc_delconfirmdlg_text">Do you really want to delete the account: </string>
+	<string name="acc_delconfirmdlg_btn_yes">Yes</string>
+	<string name="acc_delconfirmdlg_btn_no">No</string>
+	
+	<!-- interests activity -->
+	<string name="int_act_title">AndroidBuddy - Interests</string>
+	<string name="int_act_empty_storage">No stored interests found.</string>
+	<string name="int_act_txt_storage">Stored Interests:"</string>
+	<string name="int_act_btn_recomendations">Recommend</string>
+	<string name="int_act_btn_resend">Send Interest</string> 
+	<!--<string name="int_act_btn_reset">Reset Device Password</string>not used-->
+	<string name="int_act_btn_back">Back to Map</string>
+	<string name="int_delconfirmdlg_title">Delete Interest</string>
+	<string name="int_delconfirmdlg_text">Do you really want to delete the interest: </string>
+	<string name="int_delconfirmdlg_btn_yes">Yes</string>
+	<string name="int_delconfirmdlg_btn_no">No</string>
+	
+	<!-- interest edit activity -->
+	<string name="intedit_act_title">AndroidBuddy - Edit Interests</string>
+	<string name="intedit_act_check_shareWBuddiesOnly">share with Buddies only</string>
+	<string name="intedit_act_txt_network">Network:</string>
+	<string name="intedit_act_txt_Interest">Interest:</string>
+	<string name="intedit_act_txt_Category">Category:</string>
+	<string name="intedit_act_btn_save">Save</string>
+	<string name="intedit_act_btn_cancel">Cancel</string>
+	<string name="intedit_validatedlg_btn_ok">OK</string>
+	<!-- <string name="intedit_validatedlg_title">No network selection</string>
+	<string name="intedit_validatedlg_text">Please choose a social network for this account.</string> -->
+	<string name="intedit_overwritedlg_title">Duplicate Interest</string>
+	<string name="intedit_overwritedlg_text">Do you want to overwrite an already stored interest, found with the same interest and category?</string>
+	<string name="intedit_overwritedlg_btn_yes">Yes</string>
+	<string name="intedit_overwritedlg_btn_no">No</string>
+
+	<!-- account edit activity -->
+	<string name="accedit_act_title">AndroidBuddy - Account Credentials</string>
+	<string name="accedit_act_check_autocon">Connect automatically to the chosen network with this account</string>
+	<string name="accedit_act_txt_network">Network:</string>
+	<string name="accedit_act_txt_id">User ID:</string>
+	<string name="accedit_act_txt_pwd">Password:</string>
+	<string name="accedit_act_btn_save">Save</string>
+	<string name="accedit_act_btn_cancel">Cancel</string>
+	<string name="accedit_validatedlg_btn_ok">OK</string>
+	<string name="accedit_validatedlg_title">No network selection</string>
+	<string name="accedit_validatedlg_text">Please choose a social network for this account.</string>
+	<string name="accedit_overwritedlg_title">Duplicate Account</string>
+	<string name="accedit_overwritedlg_text">Do you want to overwrite an already stored account, found with the same user name and network?</string>
+	<string name="accedit_overwritedlg_btn_yes">Yes</string>
+	<string name="accedit_overwritedlg_btn_no">No</string>
+
+	<!-- connections activity -->
+	<string name="cons_act_title">AndroidBuddy - Network Connections</string>
+	<string name="cons_act_empty_cons">No open connections.</string>
+	<string name="cons_act_btn_disall">Disconnect All</string>
+	<string name="cons_act_btn_dissel">Disconnect Selected</string>
+	<string name="cons_act_btn_back">Back to Map</string>
+	<string name="cons_act_btn_refresh">Refresh Selected</string>
+	
+	<!-- groups -->
+	<string name="querygroups">Retrieving chat groups from Mobilis server ...</string>
+	<string name="querygroups_failed">Failed retrieving chat groups!</string>
+	<string name="groupdlg_title">Join Group</string>
+	<string name="groupdlg_txt_listtitle">Please choose the group to join or create a new group.</string>
+	<string name="groupdlg_edt_newgroup">new group name</string>
+	<string name="groupdlg_btn_join">join</string>
+	<string name="groupdlg_txt_groupsempty">no groups available</string>
+    
+    <!-- edit place activity -->
+	<string name="editplace_title">Create new place</string>
+	<string name="editplace_txt_title">Title</string>
+	<string name="editplace_txt_address">Address</string>
+	<string name="editplace_txt_notes">Notes</string>
+
+	<!-- menus -->
+	<string name="menu_accounts">Accounts</string>
+	<string name="menu_connections">Connections</string>
+	<string name="menu_chat_groups">Chat Groups</string>
+	<string name="menu_new_place">New Place</string>
+	<string name="menu_map_mode">Map Mode</string>
+	<string name="menu_map_mode_map">Map</string>
+	<string name="menu_map_mode_satellite">Satellite</string>
+	<string name="menu_zoom">Zoom</string>
+	<string name="menu_pref">Preferences</string>
+	<string name="menu_interest">Interests</string>
+	
+	
+	<!-- Suggestions Activity -->
+	<string name="sugg_act_title">AndroidBuddy - Suggestions</string>
+	<string name="sugg_act_empty_sugg">No Suggestions</string>
+	<string name="sugg_act_btn_left">  Refresh    List  </string>
+	<string name="sugg_act_btn_center">Add as interest</string>
+	<string name="sugg_act_btn_back">back</string>
+	<string name="sugg_act_btn_right">Suggestion type</string>
+	
+	<!-- info bar -->
+	<string name="infobar_appstarted">Client started up</string>
+	<string name="infobar_loggingin">Logging in to</string>
+	<string name="infobar_loginsuccess">Successfully logged into</string> 
+	<string name="infobar_loginfailure">Failed logging into</string>
+	<string name="infobar_publishphonecontacts">Publishing contacts from phone ...</string>
+	<string name="infobar_publishedphonecontacts">Published contacts from phone</string>
+	<string name="infobar_publishrostercontacts">Publishing contacts from XMPP roster ...</string>
+	<string name="infobar_publishedrostercontacts">Published contacts from XMPP roster</string> 
+	<string name="infobar_fetchbuddylist">Fetching buddy list from Mobilis server ...</string>
+	<string name="infobar_fetchbuddylist_failed">Failed fetching buddy list!</string>
+	<string name="infobar_fetchbuddylist_ok">Successfully fetched buddy list</string>
+	<string name="infobar_buddylocation">%s changed location</string>
+	
+	<!--  notification -->
+	<string name="notification_proximity_ticker">You came across %s!</string>
+	<string name="notification_proximity_title">Buddy in your surrounding</string>
+</resources>

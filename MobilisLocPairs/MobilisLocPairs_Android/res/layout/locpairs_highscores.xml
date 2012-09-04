@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout style="@style/TitleBar">
+		<ImageView style="@style/TitleBarLogo"
+			android:contentDescription="@string/description_logo" android:src="@drawable/title_logo" />
+
+		<View style="@style/TitleBarSpring" />
+
+		<ProgressBar style="@style/TitleBarProgressIndicator"
+			android:id="@+id/title_refresh_progress" android:visibility="gone" />
+		<ImageView style="@style/TitleBarSeparator" />
+		<!-- <ImageButton style="@style/TitleBarAction" android:contentDescription="@string/description_chat" 
+			android:src="@drawable/title_scan" android:id="@+id/btn_title_scan" android:onClick="onScanClick" 
+			/> <ImageView style="@style/TitleBarSeparator" /> <ImageButton style="@style/TitleBarAction" 
+			android:id="@+id/btn_title_refresh" android:contentDescription="@string/description_refresh" 
+			android:src="@drawable/title_refresh" android:onClick="onRefreshClick" /> -->
+		<!-- <ImageView style="@style/TitleBarSeparator" /> <ImageButton style="@style/TitleBarAction" 
+			android:contentDescription="@string/description_chat" android:src="@drawable/title_chat" 
+			android:onClick="onChatClick" /> -->
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center"
+		android:orientation="vertical" android:layout_weight="1">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Scores:"
+			android:layout_gravity="left" android:paddingLeft="13dip"
+			android:textSize="30dip" android:textColor="#8ebd43" />
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:paddingLeft="10dip">
+			<TextView android:id="@+id/team1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text=" Team1:"
+				android:layout_alignParentTop="true" android:paddingLeft="0dip"
+				style="@style/TitleBarText" />
+			<TextView android:id="@+id/player1_1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Player1"
+				android:layout_below="@+id/team1" android:paddingLeft="50dip"
+				android:paddingTop="10dip" />
+			<TextView android:id="@+id/player1_2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Player2"
+				android:layout_below="@+id/player1_1" android:paddingLeft="50dip" />
+			<ImageView android:id="@+id/img1" android:src="@drawable/ingame_droid_blue"
+				android:layout_below="@+id/team1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+			<TextView android:id="@+id/team1_score1" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:layout_alignBaseline="@+id/player1_2"
+				android:layout_alignParentRight="true" android:paddingRight="100dip"
+				android:text="-" android:textSize="40dip" android:textStyle="bold" />
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:paddingTop="60dip"
+			android:paddingLeft="10dip">
+			<TextView android:id="@+id/team2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text=" Team2:"
+				android:layout_alignParentTop="true" android:paddingLeft="0dip"
+				style="@style/TitleBarText" />
+			<TextView android:id="@+id/player2_1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Player1"
+				android:layout_below="@+id/team2" android:paddingLeft="50dip"
+				android:paddingTop="10dip" />
+			<TextView android:id="@+id/player2_2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Player2"
+				android:layout_below="@+id/player2_1" android:paddingLeft="50dip" />
+			<ImageView android:id="@+id/img2" android:src="@drawable/ingame_droid_green"
+				android:layout_below="@+id/team2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+			<TextView android:id="@+id/team2_score2" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:layout_alignBaseline="@+id/player2_2"
+				android:layout_alignParentRight="true" android:paddingRight="100dip"
+				android:text="-" android:textSize="40dip" android:textStyle="bold" />
+
+		</RelativeLayout>
+
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="2">
+		<RelativeLayout style="@style/BottomBar">
+			<Button android:layout_width="150dip" android:layout_height="wrap_content"
+				android:id="@+id/ok_btn" android:text="OK"
+				android:layout_centerInParent="true" android:textStyle="bold" />
+		</RelativeLayout>
+	</LinearLayout>
+
+</LinearLayout>

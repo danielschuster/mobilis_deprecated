@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/app_name">
+
+	<EditTextPreference
+		android:dialogMessage="@string/pref_server_description" 
+		android:dialogTitle="@string/pref_server_title" 
+		android:title="@string/pref_server_title" 
+		android:key="server" 
+		android:defaultValue="mobilis@xhunt" 
+		android:summary="@string/pref_server_summary">
+	</EditTextPreference>
+	
+	<PreferenceCategory
+		android:key="service"
+		android:title="@string/pref_service">
+		
+		<CheckBoxPreference
+			android:summary="@string/pref_service_autostart_summary"
+			android:title="@string/pref_service_autostart_title"
+			android:key="service_autostart"
+			android:defaultValue="1">
+		</CheckBoxPreference>
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+		android:key="transfer"
+		android:title="@string/pref_transfer">
+		
+		<EditTextPreference 
+			android:title="@string/pref_transfer_blocksize_title" 
+			android:key="transfer_blocksize" 
+			android:dialogTitle="@string/pref_transfer_blocksize_title" 
+			android:summary="@string/pref_transfer_blocksize_summary" 
+			android:dialogMessage="@string/pref_transfer_blocksize_description" 
+			android:defaultValue="1024">
+		</EditTextPreference>
+		<EditTextPreference
+			android:title="@string/pref_transfer_directory_title" 
+			android:dialogTitle="@string/pref_transfer_directory_title" 
+			android:summary="@string/pref_transfer_directory_summary" 
+			android:key="transfer_directory" 
+			android:dialogMessage="@string/pref_transfer_directory_description" 
+			android:defaultValue="/sdcard/download">
+		</EditTextPreference>
+		<EditTextPreference 
+			android:title="@string/pref_transfer_timeout_title" 
+			android:dialogTitle="@string/pref_transfer_timeout_title" 
+			android:summary="@string/pref_transfer_timeout_summary" 
+			android:key="transfer_timeout" 
+			android:dialogMessage="@string/pref_transfer_timeout_summary">
+		</EditTextPreference>
+		
+	</PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,493 @@
+
+xmlns="mobilislocpairs:iq:startround">
+<active teamid="1">false</active>
+<startTime>2011-01-26 20:16:38</startTime>
+<duration>28000</duration>
+<teamScore teamId='1'>0</teamScore>
+<teamScore teamId='2'>0</teamScore>
+</query>
+</iq>
+<iq id="mobilis_69" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:startround">
+		<active teamid="1">false</active>
+		<startTime>2011-01-26 20:16:38</startTime>
+		<duration>28000</duration>
+		<teamScore teamId='1'>0</teamScore>
+		<teamScore teamId='2'>0</teamScore>
+	</query>
+</iq>
+<iq id="mobilis_74" to="beta@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="0.0"
+				longitude="0.0" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="0.0"
+				longitude="0.0" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_75" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="0.0"
+				longitude="0.0" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="0.0"
+				longitude="0.0" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_76" to="bea@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="0.0"
+				longitude="0.0" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="0.0"
+				longitude="0.0" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_77" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="0.0"
+				longitude="0.0" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="0.0"
+				longitude="0.0" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_19" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:keepalive">
+		<playerId>gamma@141.30.203.90/MXA</playerId>
+		<latitude>51.025627</latitude>
+		<longitude>13.722262</longitude>
+		<altitude>0.0</altitude>
+		<result>false</result>
+	</query>
+</iq>
+<iq id="mobilis_84" to="beta@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:showcard">
+		<playerId>norbert@141.30.203.90/MXA</playerId>
+		<barCodeId>memory01</barCodeId>
+	</query>
+</iq>
+<iq id="mobilis_85" to="bea@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:showcard">
+		<playerId>norbert@141.30.203.90/MXA</playerId>
+		<barCodeId>memory01</barCodeId>
+	</query>
+</iq>
+<iq id="mobilis_86" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:showcard">
+		<playerId>norbert@141.30.203.90/MXA</playerId>
+		<barCodeId>memory01</barCodeId>
+	</query>
+</iq>
+<iq id="mobilis_87" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:showcard">
+		<playerId>norbert@141.30.203.90/MXA</playerId>
+		<barCodeId>memory01</barCodeId>
+	</query>
+</iq>
+<iq id="mobilis_22" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:uncovercard">
+		<result>false</result>
+	</query>
+</iq>
+<iq id="mobilis_25" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:keepalive">
+		<playerId>norbert@141.30.203.90/MXA</playerId>
+		<latitude>51.025705</latitude>
+		<longitude>13.722299</longitude>
+		<altitude>0.0</altitude>
+		<result>false</result>
+	</query>
+</iq>
+<iq id="mobilis_89" to="beta@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_90" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_91" to="bea@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_92" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_23" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:keepalive">
+		<playerId>gamma@141.30.203.90/MXA</playerId>
+		<latitude>51.025627</latitude>
+		<longitude>13.722262</longitude>
+		<altitude>0.0</altitude>
+		<result>false</result>
+	</query>
+</iq>
+<iq id="mobilis_28" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:keepalive">
+		<playerId>norbert@141.30.203.90/MXA</playerId>
+		<latitude>51.025705</latitude>
+		<longitude>13.722299</longitude>
+		<altitude>0.0</altitude>
+		<result>false</result>
+	</query>
+</iq>
+<iq id="mobilis_99" to="beta@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_100" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_101" to="bea@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_102" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_107" to="beta@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:startround">
+		<active teamid="2">true</active>
+		<startTime>2011-01-26 20:17:08</startTime>
+		<duration>28000</duration>
+		<teamScore teamId='1'>0</teamScore>
+		<teamScore teamId='2'>0</teamScore>
+	</query>
+</iq>
+<iq id="mobilis_108" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:startround">
+		<active teamid="2">true</active>
+		<startTime>2011-01-26 20:17:08</startTime>
+		<duration>28000</duration>
+		<teamScore teamId='1'>0</teamScore>
+		<teamScore teamId='2'>0</teamScore>
+	</query>
+</iq>
+<iq id="mobilis_109" to="bea@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:startround">
+		<active teamid="2">false</active>
+		<startTime>2011-01-26 20:17:08</startTime>
+		<duration>28000</duration>
+		<teamScore teamId='1'>0</teamScore>
+		<teamScore teamId='2'>0</teamScore>
+	</query>
+</iq>
+<iq id="mobilis_110" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:startround">
+		<active teamid="2">false</active>
+		<startTime>2011-01-26 20:17:08</startTime>
+		<duration>28000</duration>
+		<teamScore teamId='1'>0</teamScore>
+		<teamScore teamId='2'>0</teamScore>
+	</query>
+</iq>
+<iq id="mobilis_27" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:keepalive">
+		<playerId>gamma@141.30.203.90/MXA</playerId>
+		<latitude>51.025627</latitude>
+		<longitude>13.722262</longitude>
+		<altitude>0.0</altitude>
+		<result>false</result>
+	</query>
+</iq>
+<iq id="mobilis_32" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:keepalive">
+		<playerId>norbert@141.30.203.90/MXA</playerId>
+		<latitude>51.025705</latitude>
+		<longitude>13.722299</longitude>
+		<altitude>0.0</altitude>
+		<result>false</result>
+	</query>
+</iq>
+<iq id="mobilis_117" to="bea@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_118" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_119" to="beta@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_120" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_30" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:keepalive">
+		<playerId>gamma@141.30.203.90/MXA</playerId>
+		<latitude>51.025627</latitude>
+		<longitude>13.722262</longitude>
+		<altitude>0.0</altitude>
+		<result>false</result>
+	</query>
+</iq>
+<iq id="mobilis_126" to="bea@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_127" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_128" to="beta@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_129" to="gamma@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:playerupdate">
+		<gameID>server@141.30.203.90/Smack</gameID>
+		<players>
+			<player team="2" state="false" name="Benni" latitude="51.025627"
+				longitude="13.722262" altitude="0.0">gamma@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Bea" latitude="0.0"
+				longitude="0.0" altitude="0.0">bea@141.30.203.90/MXA</player>
+			<player team="2" state="false" name="Steieb" latitude="0.0"
+				longitude="0.0" altitude="0.0">beta@141.30.203.90/MXA</player>
+			<player team="1" state="false" name="Norbert" latitude="51.025705"
+				longitude="13.722299" altitude="0.0">norbert@141.30.203.90/MXA</player>
+		</players>
+	</query>
+</iq>
+<iq id="mobilis_35" to="norbert@141.30.203.90/MXA" from="server@141.30.203.90/Smack"
+	type="result">
+	<query xmlns="mobilislocpairs:iq:keepalive">
+		<playerId>norbert@141.30.203.90/MXA</playerId>
+		<latitude>51.025705</latitude>
+		<longitude>13.722299</longitude>
+		<altitude>0.0</altitude>
+		<result>false</result>
+	</query>
+</iq>

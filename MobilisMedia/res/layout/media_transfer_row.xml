@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+	<TextView
+			android:text="Test.jpg"
+			android:id="@+id/transfer_row_filename_text"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginLeft="10dip"
+			android:layout_marginTop="10dip"
+			android:ellipsize="marquee"
+			android:layout_weight="1"></TextView>
+	<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+		<TextView
+				android:text=" - "
+				android:id="@+id/transfer_row_tofrom_text"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="3dip"></TextView>		
+		<TextView
+				android:text="test@host"
+				android:id="@+id/transfer_row_jid_text"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_marginRight="10dip"
+				android:ellipsize="marquee"
+				android:layout_weight="1"></TextView>
+	</LinearLayout>
+	<ProgressBar
+			android:id="@+id/transfer_row_progress"
+			android:layout_width="fill_parent"
+			android:layout_height="10dip"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginTop="3dip"
+			android:layout_marginBottom="3dip"></ProgressBar>
+	<TextView
+			android:text="Status"
+			android:id="@+id/transfer_row_state_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="10dip"></TextView>		
+</LinearLayout>

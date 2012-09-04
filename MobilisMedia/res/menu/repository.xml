@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_selectrep" android:title="@string/menu_selectrep"
+		android:menuCategory="secondary" android:icon="@drawable/menu_switch"></item>
+	<item android:id="@+id/menu_refresh" android:title="@string/menu_refresh"
+		android:menuCategory="secondary" android:icon="@drawable/menu_refresh"></item>
+	<item android:id="@+id/menu_upload" android:title="@string/menu_upload"
+		android:menuCategory="secondary" android:icon="@android:drawable/ic_menu_upload"></item>
+	<item android:id="@+id/menu_pref" android:title="@string/menu_pref"
+		android:menuCategory="secondary" android:icon="@android:drawable/ic_menu_preferences"></item>
+	<item android:id="@+id/menu_pref_xmpp" android:title="@string/menu_pref_xmpp"
+		android:menuCategory="secondary" android:icon="@drawable/menu_pref_xmpp"></item>
+</menu>

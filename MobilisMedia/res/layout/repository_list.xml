@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<Spinner android:id="@+id/condition_owner"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:fadingEdge="horizontal"
+		android:padding="4dip"></Spinner>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+		<Button android:id="@+id/condition_datetaken_ge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"></Button>
+		<Button android:id="@+id/condition_timetaken_ge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"></Button>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_marginTop="4dip"
+			android:text="@string/to_label"></TextView>
+		<Button android:id="@+id/condition_datetaken_le"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"></Button>
+		<Button android:id="@+id/condition_timetaken_le"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"></Button>
+					
+	</LinearLayout>
+	
+	<ListView
+ 			android:id="@android:id/list"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+	</ListView>
+	
+</LinearLayout>

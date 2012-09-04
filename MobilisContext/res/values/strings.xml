@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">MobilisContext</string>
+    
+    
+    <!-- Menu -->
+    <string name="menu_pref">Settings</string>
+    <string name="menu_pref_xmpp">XMPP Settings</string>
+    <string name="menu_pref_connect">Connect</string>
+    <string name="menu_publish">Publish context</string>
+    <string name="menu_subscribe">Subscribe / Unsubscribe</string>
+            
+    <string name="mxa_not_found">MXA not found. Please install.</string>
+    
+    <!-- Preferences -->
+    <string name="pref_title">Preferences</string>    
+    <string name="pref_communication">Communication with server</string>
+    <string name="pref_mobilisserver_key">server</string>
+    <string name="pref_mobilisserver_default">mobilis@mobilis.inf.tu-dresden.de</string>
+    <string name="pref_mobilisserver_title">MobilisServer JID</string>
+    <string name="pref_mobilisserver_description">Enter the JID (XMPP-ID, without resource) of the running MobilisServer (e.g. server@mobilis.rn.inf.tu-dresden.de) which provides all kind of mobilis services.</string>
+    <string name="pref_mobilisserver_summary">Mobilis Server manages your connection to the mobilis network</string>
+    <string name="pref_communication_switch_title">Discover Context Service</string>
+    <string name="pref_communication_switch_key">switch</string>
+    <string name="pref_communication_switch_summary">Activate to discover and connect to a Context Service on the specified MobilisServer.</string>
+
+
+	<!-- Mood -->
+	<string name="mood_spinner_label">Select your mood.</string>
+	<string name="mood_text_label">Describe your mood. (optional)</string>
+	<string name="mood_button_publish">Publish</string>
+	<string-array name="mood_array">
+		<item>afraid</item>
+		<item>amazed</item>
+		<item>angry</item>
+		<item>amorous</item>
+		<item>annoyed</item>
+		<item>anxious</item>
+		<item>aroused</item>
+		<item>ashamed</item>
+		<item>bored</item>
+		<item>brave</item>
+		<item>calm</item>
+		<item>cautious</item>
+		<item>cold</item>
+		<item>confident</item>
+		<item>confused</item>
+		<item>contemplative</item>
+		<item>contented</item>
+		<item>cranky</item>
+		<item>crazy</item>
+		<item>creative</item>
+		<item>curious</item>
+		<item>dejected</item>
+		<item>depressed</item>
+		<item>disappointed</item>
+		<item>disgusted</item>
+		<item>dismayed</item>
+		<item>distracted</item>
+		<item>embarrassed</item>
+		<item>envious</item>
+		<item>excited</item>
+		<item>flirtatious</item>
+		<item>frustrated</item>
+		<item>grumpy</item>
+		<item>guilty</item>
+		<item>happy</item>
+		<item>hopeful</item>
+		<item>hot</item>
+		<item>humbled</item>
+		<item>humiliated</item>
+		<item>hungry</item>
+		<item>hurt</item>
+		<item>impressed</item>
+		<item>in_awe</item>
+		<item>in_love</item>
+		<item>indignant</item>
+		<item>interested</item>
+		<item>intoxicated</item>
+		<item>invincible</item>
+		<item>jealous</item>
+		<item>lonely</item>
+		<item>lucky</item>
+		<item>mean</item>
+		<item>moody</item>
+		<item>nervous</item>
+		<item>neutral</item>
+		<item>offended</item>
+		<item>outraged</item>
+		<item>playful</item>
+		<item>proud</item>
+		<item>relaxed</item>
+		<item>relieved</item>
+		<item>remorseful</item>
+		<item>restless</item>
+		<item>sad</item>
+		<item>sarcastic</item>
+		<item>serious</item>
+		<item>shocked</item>
+		<item>shy</item>
+		<item>sick</item>
+		<item>sleepy</item>
+		<item>spontaneous</item>
+		<item>stressed</item>
+		<item>strong</item>
+		<item>surprised</item>
+		<item>thankful</item>
+		<item>thirsty</item>
+		<item>tired</item>
+		<item>undefined</item>
+		<item>weak</item>
+		<item>worried</item>                
+    </string-array>
+
+	<!-- Tune -->
+	<string name="tune_label">Choose a track:</string>
+	
+	<!-- Publish -->
+	<string-array name="context_type_array">
+		<item>String</item>
+		<item>Integer</item>
+		<item>Long</item>
+		<item>Double</item>
+		<item>Timestamp</item>
+		<item>Byte</item>
+	</string-array>
+	<string name="publish_text">In this Activity you can publish generic context data to the User Context Service on the MobilisServer. To publish your mood, tune or location use the correspondent activities.</string>
+	<string name="publish_path">Enter Path:</string>
+	<string name="publish_key">Enter Key:</string>
+	<string name="publish_value">Enter Value:</string>
+	<string name="publish_type">Enter Type:</string>
+	<string name="publish_expiration">Expiration date:</string>
+	<string name="publish_button">Publish</string>
+	
+	<!-- Subscribe -->
+	<string name="subscribe_text">Here you can request a subscription to context information of other users.</string>
+	<string name="subscribe_user">Enter user JID:</string>
+	<string name="subscribe_node">Enter the node to subscribe to:</string>
+	<string name="subscribe_button">Subscribe</string>
+	<string name="unsubscribe_button">Unsubscribe</string>
+    
+</resources>

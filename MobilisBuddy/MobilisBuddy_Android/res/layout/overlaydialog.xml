@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:id="@+id/overlay_btn_poke"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="poke" />
+
+	<Button android:id="@+id/overlay_btn_chat"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="chat" />
+
+	<Button android:id="@+id/overlay_btn_call"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="call" />
+
+</LinearLayout>

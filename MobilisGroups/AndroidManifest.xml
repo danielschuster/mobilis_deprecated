@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  /**
+   * Copyright (C) 2010 Technische Universität Dresden
+   *
+   * Licensed under the Apache License, Version 2.0 (the "License");
+   * you may not use this file except in compliance with the License.
+   * You may obtain a copy of the License at
+   *
+   *      http://www.apache.org/licenses/LICENSE-2.0
+   *
+   * Unless required by applicable law or agreed to in writing, software
+   * distributed under the License is distributed on an "AS IS" BASIS,
+   * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   * See the License for the specific language governing permissions and
+   * limitations under the License.
+   */
+  
+  /**
+   * Dresden, University of Technology, Faculty of Computer Science
+   * Computer Networks Group: http://www.rn.inf.tu-dresden.de
+   * mobilis project: http://mobilisplatform.sourceforge.net
+   */
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="de.tudresden.inf.rn.mobilis.groups"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon64" android:label="@string/app_name" android:debuggable="true">
+    
+    	<uses-library android:name="com.google.android.maps" />
+        <activity android:name=".activities.MainActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.PrefActivity" android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".activities.FriendsActivity" android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".activities.GroupsActivity" android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".activities.GroupCreateActivity" android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".activities.GroupInfoActivity" android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".activities.MemberInfoActivity" android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".activities.MUCActivity" android:label="@string/app_name" >
+        </activity>
+
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+</manifest> 

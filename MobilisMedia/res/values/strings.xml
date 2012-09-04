@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Mobilis Media</string>
+<string name="send_via_xmpp">Send via XMPP</string>
+<string name="description_label">Description:</string>
+<string name="send_button">Send</string>
+<string name="cancel_button">Cancel</string>
+<string name="pick_jid_label">Pick a buddy from your roster:</string>
+<string name="media_transfer_manager">Media Transfer Manager</string>
+<string name="to_label"> to </string>
+<string name="from_label"> from </string>
+<string name="none_entry">(none)</string>
+<string name="transfer_state_waiting">Waiting for peer...</string>
+<string name="transfer_state_ongoing" formatted="false">Transferring %d of %d kB.</string>
+<string name="transfer_state_asking">Tap here to accept/deny.</string>
+<string name="transfer_state_failed">File transfer failed.</string>
+<string name="transfer_state_finished">File transferred.</string>
+<string name="transfers_incoming">Incoming Media Transfers</string>
+<string name="transfers_outgoing">Outgoing Media Transfers</string>
+<string name="no_transfers">(No transfers.)</string>
+<string name="notification_transfers_title">File transfers via XMPP</string>
+<string name="notification_transfers_text" formatted="false">%d file transfers active.</string>
+<string name="notification_transfers_status">File transfers active.</string>
+<string name="tab_send_to_jid">Send to Buddy</string>
+<string name="tab_send_to_rep">Publish to Repository</string>
+
+<string name="mxa_not_found">MXA not found. Please install.</string>
+
+<string name="pref_title">Preferences</string>
+<string name="pref_server_title">Mobilis Server JID</string>
+<string name="pref_server_description">The Mobilis Server JID (e.g. server@mobilis.rn.inf.tu-dresden.de) provides all kind of mobilis services, e.g. repository and content services.</string>
+<string name="pref_server_summary">Manages your connection to the Mobilis network</string>
+<string name="pref_service">Service settings</string>
+<string name="pref_service_autostart_title">Autostart services</string>
+<string name="pref_service_autostart_summary">All media and file sharing services are launched on application startup.</string>
+<string name="pref_transfer">File transfer settings</string>
+<string name="pref_transfer_blocksize_title">Block size</string>
+<string name="pref_transfer_blocksize_description">The block size specifies how many bytes are transferred until the user gets a feedback about the progress of the transfer, i.e. using a progress bar in the notification window.</string>
+<string name="pref_transfer_blocksize_summary">Number of bytes transferred once in-a-row.</string>
+<string name="pref_transfer_directory_title">Local directory</string>
+<string name="pref_transfer_directory_description">Specify here a directory where to store incoming files into and from which to send files to peers. Do NOT enter any trailing \'/\'.</string>
+<string name="pref_transfer_directory_summary">Target directory for incoming transfers and local browsing.</string>
+<string name="pref_transfer_timeout_title">Outgoing reply timeout</string>
+<string name="pref_transfer_timeout_description">This is the time in seconds the file transfer service will wait for the peer to accept the incoming file transfer.</string>
+<string name="pref_transfer_timeout_summary">Time in seconds to wait for a reply.</string>
+
+
+<string name="menu_pref">Settings</string>
+<string name="menu_pref_xmpp">XMPP Settings</string>
+<string name="menu_refresh">Refresh</string>
+<string name="menu_selectrep">Switch</string>
+<string name="menu_upload">Upload</string>
+<string name="custom_rep_button">Enter custom repository...</string>
+<string name="pick_rep_title">Pick repository.</string>
+<string name="pick_rep_label">Find below the repository broker services of your mobilis server. You can define the mobilis server with Menu/Preferences.</string>
+<string name="pick_rep_cancel">Cancel</string>
+<string name="notification_transfer_ongoing_title">XMPP File transfer ongoing...</string>
+<string name="notification_transfer_finished_title">XMPP File Transfer complete.</string>
+<string name="notification_transfer_ongoing_one">Transfer in progress...</string>
+<string name="notification_transfer_ongoing_more" formatted="false">%d ongoing transfers.</string>
+<string name="notification_transfer_finished_status">All files have been transferred.</string>
+<string name="notification_transfer_ongoing_ticker" formatted="false">Started transfer of %s to %s.</string>
+<string name="notification_transfer_failed_title">File transfer failed.</string>
+<string name="notification_transfer_failed_status">Tap to open the transfer manager window.</string>
+<string name="notification_transfer_failed_ticker">File transfer failed!</string>
+<string name="notification_transfer_finished_ticker">All transfers completed.</string>
+<string name="notification_transfer_incoming_title">Incoming File Transfer!</string>
+<string name="notification_transfer_incoming_content" formatted="false">from %s.</string>
+<string name="notification_transfer_incoming_ticker" formatted="false">%s sent you the file %s.</string>
+<string name="dialog_request_title">Incoming File Transfer</string>
+<string name="dialog_request_message" formatted="false">Accept incoming file transfer from %s? Enter a filename.</string>
+<string name="dialog_request_yes">Accept</string>
+<string name="dialog_request_no">Deny</string>
+<string name="dialog_request_cancel">Wait</string>
+<string name="repository_browse">Browse Mobilis Repository</string>
+<string name="repository_map_caption">Map view</string>
+<string name="repository_list_caption">User/Date view</string>
+<string name="repository_list_entry" formatted="false">by %s at %02d.%02d.%02d %02d:%02d</string>
+
+<string name="commands">Commands</string>
+<string name="command_delete">Delete item</string>
+<string name="command_replace">Replace item by another</string>
+<string name="command_download">Download item to phone</string>
+<string name="slices">Metadata</string>
+<string name="slice_taken">Taken</string>
+<string name="slice_longitude_e6">Longitude</string>
+<string name="slice_latitude_e6">Latitude</string>
+<string name="slice_title">Title</string>
+<string name="slice_description">Description</string>
+<string name="slice_owner">Owner</string>
+
+</resources>

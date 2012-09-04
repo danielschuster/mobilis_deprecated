@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="@string/app_name">
+
+	<PreferenceCategory android:title="@string/pref_xmpp">
+
+		<EditTextPreference android:key="pref_host"
+			android:defaultValue="@string/pref_host_default" android:title="@string/pref_host_title"
+			android:summary="@string/pref_host_summary" android:dialogTitle="@string/pref_host_dialogtitle" />
+
+		<EditTextPreference android:key="pref_port"
+			android:defaultValue="@string/pref_port_default" android:title="@string/pref_port_title"
+			android:summary="@string/pref_port_summary" android:dialogTitle="@string/pref_port_dialogtitle" />
+
+		<EditTextPreference android:key="pref_service"
+			android:defaultValue="@string/pref_service_default" android:title="@string/pref_service_title"
+			android:summary="@string/pref_service_summary" android:dialogTitle="@string/pref_service_dialogtitle" />
+
+		<EditTextPreference android:key="pref_resource"
+			android:defaultValue="@string/pref_resource_default" android:title="@string/pref_resource_title"
+			android:summary="@string/pref_resource_summary" android:dialogTitle="@string/pref_resource_dialogtitle" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/pref_mobilis">
+
+		<EditTextPreference android:key="pref_coordinator"
+			android:defaultValue="@string/pref_coordinator_default"
+			android:title="@string/pref_coordinator_title" android:summary="@string/pref_coordinator_summary"
+			android:dialogTitle="@string/pref_coordinator_dialogtitle" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

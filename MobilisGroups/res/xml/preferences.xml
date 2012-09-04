@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (C) 2010 Technische Universität Dresden
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+  	http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
+  Dresden, University of Technology, Faculty of Computer Science
+  Computer Networks Group: http://www.rn.inf.tu-dresden.de
+  mobilis project: http://mobilisplatform.sourceforge.net
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/app_name">
+
+	<PreferenceScreen
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:summary="Enter personal information that will be visible to all your friends"
+			android:title="@string/pref_personal_information">
+	
+		<EditTextPreference
+				android:dialogMessage="@string/pref_personal_information_realname_message" 
+				android:dialogTitle="@string/pref_personal_information_realname_dialog_title"
+				android:title="@string/pref_personal_information_realname_title" 
+				android:key="@string/pref_personal_information_realname_key" 
+				android:defaultValue="@string/pref_personal_information_realname_default" 
+				android:summary="@string/pref_personal_information_realname_summary">
+		</EditTextPreference>
+		<EditTextPreference
+				android:numeric="decimal"
+				android:dialogMessage="@string/pref_personal_information_age_message" 
+				android:dialogTitle="@string/pref_personal_information_age_dialog_title"
+				android:title="@string/pref_personal_information_age_title" 
+				android:key="@string/pref_personal_information_age_key" 
+				android:defaultValue="@string/pref_personal_information_age_default" 
+				android:summary="@string/pref_personal_information_age_summary">
+		</EditTextPreference>
+		<EditTextPreference
+				android:dialogMessage="@string/pref_personal_information_city_message" 
+				android:dialogTitle="@string/pref_personal_information_city_dialog_title"
+				android:title="@string/pref_personal_information_city_title" 
+				android:key="@string/pref_personal_information_city_key" 
+				android:defaultValue="@string/pref_personal_information_city_default" 
+				android:summary="@string/pref_personal_information_city_summary">
+		</EditTextPreference>
+		<EditTextPreference
+				android:dialogMessage="@string/pref_personal_information_email_message" 
+				android:dialogTitle="@string/pref_personal_information_email_dialog_title"
+				android:title="@string/pref_personal_information_email_title" 
+				android:key="@string/pref_personal_information_email_key" 
+				android:defaultValue="@string/pref_personal_information_email_default" 
+				android:summary="@string/pref_personal_information_email_summary">
+		</EditTextPreference>
+		<EditTextPreference
+				android:dialogMessage="@string/pref_personal_information_homepage_message" 
+				android:dialogTitle="@string/pref_personal_information_homepage_dialog_title"
+				android:title="@string/pref_personal_information_homepage_title" 
+				android:key="@string/pref_personal_information_homepage_key" 
+				android:defaultValue="@string/pref_personal_information_homepage_default" 
+				android:summary="@string/pref_personal_information_homepage_summary">
+		</EditTextPreference>	
+	</PreferenceScreen>
+	
+	
+	<PreferenceCategory android:title="@string/pref_communication">
+
+		<EditTextPreference
+			android:dialogMessage="@string/pref_mobilisserver_description" 
+			android:dialogTitle="@string/pref_mobilisserver_title" 
+			android:title="@string/pref_mobilisserver_title" 
+			android:key="@string/pref_mobilisserver_key"
+			android:defaultValue="@string/pref_mobilisserver_default" 
+			android:summary="@string/pref_mobilisserver_summary">
+		</EditTextPreference>
+		<CheckBoxPreference
+			android:title="@string/pref_communication_switch_title"
+			android:key="@string/pref_communication_switch_key"
+			android:defaultValue="0"
+			android:summary="@string/pref_communication_switch_summary">			
+		</CheckBoxPreference>
+		<CheckBoxPreference
+			android:title="@string/pref_communication_autorefresh_title"
+			android:key="@string/pref_communication_autorefresh_key"
+			android:defaultValue="1"
+			android:summary="@string/pref_communication_autorefresh_summary">			
+		</CheckBoxPreference>
+
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/pref_overlays">
+		
+		<CheckBoxPreference
+			android:title="@string/pref_overlays_foursquare"
+			android:key="@string/pref_overlays_foursquare_key"
+			android:defaultValue="1"
+			android:summaryOn="@string/pref_overlays_foursquare_summary_on"
+			android:summaryOff="@string/pref_overlays_foursquare_summary_off">			
+		</CheckBoxPreference>
+		<EditTextPreference
+			android:dialogMessage="@string/pref_overlays_foursquare_limit_description" 
+			android:dialogTitle="@string/pref_overlays_foursquare_limit" 
+			android:title="@string/pref_overlays_foursquare_limit" 
+			android:key="@string/pref_overlays_foursquare_limit_key"
+			android:defaultValue="10"
+			android:summary="@string/pref_overlays_foursquare_limit_summary"
+			android:numeric="decimal"
+			android:maxLength="10"
+			android:dependency="foursquare_active">
+		</EditTextPreference>
+		<CheckBoxPreference
+			android:title="@string/pref_overlays_foursquare_autorefresh_title"
+			android:key="@string/pref_overlays_foursquare_autorefresh_key"
+			android:defaultValue="0"
+			android:summary="@string/pref_overlays_foursquare_autorefresh_summary"
+			android:dependency="foursquare_active">			
+		</CheckBoxPreference>
+	<!--	<CheckBoxPreference
+			android:title="@string/pref_overlays_gowalla"
+			android:key="@string/pref_overlays_gowalla_key"
+			android:defaultValue="0"
+			android:summaryOn="@string/pref_overlays_gowalla_summary_on"
+			android:summaryOff="@string/pref_overlays_gowalla_summary_off">
+		</CheckBoxPreference>
+		<EditTextPreference
+			android:dialogMessage="@string/pref_mobilisserver_description" 
+			android:dialogTitle="@string/pref_mobilisserver_title" 
+			android:title="@string/pref_overlays_gowalla_user" 
+			android:key="gowalla_user" 
+			android:defaultValue="user"
+			android:summary="@string/pref_overlays_gowalla_user_summary"
+			android:dependency="gowalla_active">
+		</EditTextPreference>
+		<EditTextPreference
+			android:dialogMessage="@string/pref_mobilisserver_description" 
+			android:dialogTitle="@string/pref_mobilisserver_title" 
+			android:title="@string/pref_overlays_gowalla_pass" 
+			android:key="gowalla_pass" 
+			android:defaultValue="pass"
+			android:summary="@string/pref_overlays_gowalla_user_summary"
+			android:dependency="gowalla_active">
+		</EditTextPreference>		-->
+	
+	</PreferenceCategory>
+	
+
+<!--
+	<PreferenceCategory android:title="@string/pref_xmpp_credentials">
+		<EditTextPreference android:key="pref_xmpp_user"
+			android:dialogTitle="@string/pref_xmpp_user_dialogtitle"
+			android:title="@string/pref_xmpp_user_title" android:summary="@string/pref_xmpp_user_summary"></EditTextPreference>
+		<EditTextPreference android:key="pref_xmpp_password"
+			android:dialogTitle="@string/pref_xmpp_password_dialogtitle"
+			android:title="@string/pref_xmpp_password_title" android:summary="@string/pref_xmpp_password_summary"></EditTextPreference>
+	</PreferenceCategory>-->
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:menuCategory="secondary" android:alphabeticShortcut="a" android:icon="@drawable/ic_menu_key" android:id="@+id/menu_accounts" android:title="@string/menu_accounts"></item><item android:menuCategory="secondary" android:alphabeticShortcut="n" android:icon="@drawable/ic_menu_share" android:id="@+id/menu_connections" android:title="@string/menu_connections"></item><item android:id="@+id/menu_chat_groups" android:menuCategory="secondary" android:title="@string/menu_chat_groups" android:alphabeticShortcut="c" android:icon="@drawable/ic_menu_notifications"></item><item android:id="@+id/menu_new_place" android:title="@string/menu_new_place"
+		android:icon="@drawable/ic_menu_myplaces" android:alphabeticShortcut="p"
+		android:menuCategory="secondary" />
+	<item android:id="@+id/menu_map_mode" android:icon="@drawable/ic_menu_mapmode"
+		android:title="@string/menu_map_mode" android:menuCategory="secondary" android:alphabeticShortcut="m">
+		<menu>
+			<group android:id="@+id/menu_map_mode_checkable_group"
+				android:checkableBehavior="single">
+				<item android:id="@+id/menu_map_mode_map" android:title="@+string/menu_map_mode_map"
+					android:checked="true" />
+				<item android:id="@+id/menu_map_mode_satellite" android:title="@+string/menu_map_mode_satellite" />
+			</group>
+		</menu>
+	</item>
+	<item android:id="@+id/menu_zoom" android:title="@string/menu_zoom"
+		android:icon="@drawable/ic_menu_zoom" android:alphabeticShortcut="z"
+		android:menuCategory="secondary"></item>
+	<item android:id="@+id/menu_pref" android:title="@string/menu_pref"
+		android:icon="@drawable/ic_menu_preferences" android:menuCategory="secondary" android:alphabeticShortcut="r"></item>
+
+
+
+</menu>

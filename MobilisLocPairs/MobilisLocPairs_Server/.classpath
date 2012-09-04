@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/smack.jar"/>
+	<classpathentry kind="lib" path="lib/derby.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink.jar"/>
+	<classpathentry kind="lib" path="lib/smackx-debug.jar"/>
+	<classpathentry kind="lib" path="lib/smackx-jingle.jar"/>
+	<classpathentry kind="lib" path="lib/smackx.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence_2.0.1.v201006031150.jar"/>
+	<classpathentry kind="lib" path="lib/android.jar"/>
+	<classpathentry kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="lib" path="lib/commons-net-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/SimpleWebServer.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MobilisXMPP"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MobilisCommon"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MobilisServer"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

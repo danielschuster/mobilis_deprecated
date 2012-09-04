@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:orientation="horizontal"
+	android:layout_height="wrap_content">
+	<TextView android:id="@+id/list_item_settings_title"
+		android:textSize="16sp" android:layout_width="100px"
+		android:layout_height="wrap_content" android:text="@string/editplace_txt_notes"></TextView>
+	<EditText android:id="@+id/list_item_settings_edit"
+		android:layout_weight="1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginRight="6px"
+		android:singleLine="false" android:gravity="fill_vertical"></EditText>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+        <name>Bahnhof Neustadt, Deutschland nach Nöthnitzer Straße 41, 01187 Dresden, Deutschland</name>
+        <Placemark><name>01</name><Point><coordinates>13.740200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>02</name><Point><coordinates>13.740400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>03</name><Point><coordinates>13.740600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>04</name><Point><coordinates>13.740800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>05</name><Point><coordinates>13.741000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>06</name><Point><coordinates>13.741200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>07</name><Point><coordinates>13.741400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>08</name><Point><coordinates>13.741600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>09</name><Point><coordinates>13.741800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>10</name><Point><coordinates>13.742000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>11</name><Point><coordinates>13.742200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>12</name><Point><coordinates>13.742400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>13</name><Point><coordinates>13.742600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>14</name><Point><coordinates>13.742800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>15</name><Point><coordinates>13.743000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>16</name><Point><coordinates>13.743200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>17</name><Point><coordinates>13.743400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>18</name><Point><coordinates>13.743600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>19</name><Point><coordinates>13.743800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>20</name><Point><coordinates>13.744000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>21</name><Point><coordinates>13.744200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>22</name><Point><coordinates>13.744400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>23</name><Point><coordinates>13.744600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>24</name><Point><coordinates>13.744800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>25</name><Point><coordinates>13.745000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>26</name><Point><coordinates>13.745200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>27</name><Point><coordinates>13.745400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>28</name><Point><coordinates>13.745600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>29</name><Point><coordinates>13.745800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>30</name><Point><coordinates>13.746000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>31</name><Point><coordinates>13.746200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>32</name><Point><coordinates>13.746400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>33</name><Point><coordinates>13.746600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>34</name><Point><coordinates>13.746800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>35</name><Point><coordinates>13.747000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>36</name><Point><coordinates>13.747200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>37</name><Point><coordinates>13.747400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>38</name><Point><coordinates>13.747600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>39</name><Point><coordinates>13.747800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>40</name><Point><coordinates>13.748000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>41</name><Point><coordinates>13.748200,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>42</name><Point><coordinates>13.748400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>43</name><Point><coordinates>13.748600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>44</name><Point><coordinates>13.748800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>45</name><Point><coordinates>13.749000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>46</name><Point><coordinates>13.749000,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>47</name><Point><coordinates>13.749400,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>48</name><Point><coordinates>13.749600,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>49</name><Point><coordinates>13.749800,51.064990,0</coordinates></Point></Placemark>
+        <Placemark><name>50</name><Point><coordinates>13.750000,51.064990,0</coordinates></Point></Placemark>
+</Document>
+</kml>

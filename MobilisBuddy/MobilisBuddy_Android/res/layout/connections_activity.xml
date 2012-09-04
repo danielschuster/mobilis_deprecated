@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/cons_act_lay1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout android:id="@+id/cons_act_lay5"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:layout_weight="1"
+		android:padding="5px">
+
+		<!-- grouping listview and textview for empty list display -->
+		<LinearLayout android:id="@+id/cons_act_lay6"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:background="#ff444444">
+			<ListView android:id="@+id/android:list"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_weight="1" android:background="#ff444444">
+			</ListView>
+			<TextView android:id="@+id/android:empty"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:text="@string/cons_act_empty_cons" android:layout_weight="1"
+				android:background="#ff444444" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<LinearLayout android:id="@+id/cons_act_lay7"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button android:id="@+id/cons_act_btn_disall"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/cons_act_btn_disall" android:layout_weight="1"
+				android:layout_marginTop="5px">
+			</Button>
+			<Button android:id="@+id/cons_act_btn_dissel"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/cons_act_btn_dissel" android:layout_weight="1"
+				android:layout_marginTop="5px">
+			</Button>
+			<Button android:id="@+id/cons_act_btn_refresh"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/cons_act_btn_refresh" android:layout_weight="1"
+				android:layout_marginTop="5px">
+			</Button>
+		</LinearLayout>
+		<ImageView android:id="@android:drawable/divider_horizontal_dark"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:src="@drawable/panel_separator9" layout_marginTop="5px" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/cons_act_lay8"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="#ff999999">
+		<Button android:id="@+id/cons_act_btn_back"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/cons_act_btn_back" android:layout_weight="1"
+			android:textSize="13sp" android:textColor="#ff555555"
+			android:layout_marginTop="5px" style="?android:attr/buttonStyleSmall">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

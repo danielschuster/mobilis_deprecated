@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/de.tudresden.inf.rn.mobilis.android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TabHost android:id="@+id/main_tabhost"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="64px" />
+
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:paddingTop="65px">
+
+			<LinearLayout android:id="@+id/content1"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" />
+
+		</FrameLayout>
+
+	</TabHost>
+	
+	<de.tudresden.inf.rn.mobilis.android.InfoBar android:id="@+id/main_infobar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		app:text="@string/infobar_appstarted"/>
+
+</LinearLayout>

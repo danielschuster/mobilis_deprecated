@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="250px"
+	android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/login_dlg_txt_username"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10px"
+		android:layout_marginLeft="8px"/>
+
+	<EditText android:id="@+id/login_dlg_edit_username"
+		android:singleLine="true" android:lines="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:autoText="true"
+		android:capitalize="none" android:scrollHorizontally="false" 
+		android:layout_marginLeft="7px"/>
+
+	<TextView android:id="@+id/login_dlg_txt_password"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="8px"/>
+
+	<EditText android:id="@+id/login_dlg_edit_password"
+		android:singleLine="true" android:lines="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:capitalize="none"
+		android:scrollHorizontally="false" android:password="true" 
+		android:layout_marginLeft="7px"/>
+
+	<Button android:id="@+id/login_dlg_btn_login"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/login_dlg_btn_login"
+		android:layout_marginTop="10px" 
+		android:layout_marginLeft="5px" />
+
+</LinearLayout>

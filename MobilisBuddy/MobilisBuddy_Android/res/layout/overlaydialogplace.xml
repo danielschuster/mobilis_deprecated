@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+    <LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:text="Editor" android:textStyle="bold"
+			android:layout_width="100px" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/overlaydialogplace_edt_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="Erwin"/>
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:text="Address" android:textStyle="bold"
+			android:layout_width="100px" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/overlaydialogplace_edt_address"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="Am Zwingerteich 1"/>
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:text="Notes" android:textStyle="bold"
+			android:layout_width="100px" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/overlaydialogplace_edt_address"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="I have just been there, it has some really interesting museums. Liked the Canalettos!"/>
+	</LinearLayout>
+
+</LinearLayout>

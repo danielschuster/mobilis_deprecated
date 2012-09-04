@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2010 Google Inc. Licensed under the Apache License, Version 
+	2.0 (the "License"); you may not use this file except in compliance with 
+	the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/home_root" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<LinearLayout style="@style/TitleBar">
+		<ImageView style="@style/TitleBarLogo"
+			android:contentDescription="@string/description_logo" android:src="@drawable/title_logo" />
+
+		<View style="@style/TitleBarSpring" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1" android:padding="6dip" android:background="@color/background2">
+
+	 	<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/XmppButton"
+			android:text="Reconnect Xmpp"></Button>
+		<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/ServerButton"
+			android:text="Xmpp Server" android:onClick="onServerClick"></Button>
+		<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/PortButton"
+			android:text="Xmpp Server Port" android:onClick="onPortClick"></Button>
+		<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/LPButton"
+			android:text="locpairsAddress" android:onClick="onLPClick"></Button>
+		<!-- <Button android:layout_height="wrap_content" android:id="@+id/LoadDataButton"
+			android:layout_width="fill_parent" android:text="Load Sample Data"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/WifiMapperButton"
+			android:text="Wifi-Mapper" android:layout_width="fill_parent"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/PositioningButton"
+			android:layout_width="fill_parent" android:text="Positioning"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/WfsButton"
+			android:text="Load WFS Data" android:layout_width="fill_parent"></Button> -->
+			
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/main"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+		    <TextView
+		        android:id="@+id/label"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Name:"
+		        android:layout_below="@id/label"/>
+		    <EditText
+		        android:id="@+id/entry"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@android:drawable/editbox_background"
+		        android:layout_below="@id/label"/>
+		    <Button
+		        android:id="@+id/ok"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/entry"
+		        android:layout_alignParentRight="true"
+		        android:layout_marginLeft="10dip"
+		        android:text="OK" />
+		    <Button
+		    	android:id="@+id/cancel"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toLeftOf="@id/ok"
+		        android:layout_alignTop="@id/ok"
+		        android:text="Cancel" />
+		</RelativeLayout>
+	</LinearLayout>
+	</LinearLayout>
+

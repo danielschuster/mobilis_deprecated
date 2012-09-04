@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/groupdlg_txt_listtitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/groupdlg_txt_listtitle" />
+
+	<ListView android:id="@+id/groupdlg_lst_groups"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:scrollbars="horizontal" />
+
+	<TextView android:id="@+id/groupdlg_txt_groupsempty"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:text="@string/groupdlg_txt_groupsempty"
+		android:layout_weight="1" android:background="#aa888888" />
+
+	<EditText android:id="@+id/groupdlg_edt_newgroup"
+		android:singleLine="true" android:lines="1"
+		android:layout_marginTop="10px" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:autoText="true"
+		android:capitalize="none" android:scrollHorizontally="false"
+		android:hint="@string/groupdlg_edt_newgroup" />
+
+	<Button android:id="@+id/groupdlg_btn_join"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/groupdlg_btn_join" />
+
+</LinearLayout>

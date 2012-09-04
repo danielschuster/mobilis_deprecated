@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">This is a test application to evaluate the positioning capabilities of Android.</string>
+    <string name="app_name">LocPairs</string>
+   	<string name="addtab_name">Add Server</string>
+	<string name="searchtab_name">Find WFS</string>
+	<string name="contab_name">Connections</string>
+	<string name="search_prompt_radius">Max radius</string>
+	<string name="search_prompt_results">Max results</string>
+	<string name="no_wfs">No servers to display</string>
+	
+	<!-- LocPairs -->
+	<string name="description_logo">LocPairs</string>
+	<string name="menu">LocPairs Menu</string>
+	<string name="btn_settings">Settings</string>
+	<string name="map_settings">Map Settings</string>
+	<string name="btn_instructions">Instructions</string>
+	<string name="btn_lobby">Lobby</string>
+	<string name="settings_title">Settings</string>
+	<string name="btn_scan">Scan QR Code</string>
+	<string-array name="LobbyUserArray">
+		<item>UserName1</item>
+		<item>UserName2</item>
+		<item>UserName3</item>
+		<item>UserName4</item>
+	</string-array>
+	<string name="description_refresh">refresh</string>
+	<string name="description_chat">chat</string>
+	<string name="next_round">Next Round</string>
+	<string name="instructions01">Welcome to LocPairs. If you don’t know how to play this game read the instructions below.
+		But before you can play the game, you need to install the MXA manager and a Barcode scanner. You have to set the values 
+		in the MXA Manager to host: 141.30.203.90, port: 5222 and your name and password from your XMPP login.</string>
+	<string name="instructions02">LocPairs is based on the classic pairs game, but you can play it in a whole building.
+		In the LocPairs game there are 32 cards placed behind several doors of a building. 
+		The teams take turns flipping pairs of cards over. On each turn, one member of the teams will first turn 
+		one card over and then the second member of the team will turn a second card. 
+		If the two cards match, the team scores one point, the two cards are removed from the game, 
+		and the team gets another turn. If they do not match, the cards are turned back over and the next team 
+		can uncover two cards.</string>
+	<string name="instructions03">The cards can be turned over by walking to a door that is marked on the map. 
+		There you find a QR-code that you have to scan with your mobile device. But you only have 30 seconds time. 
+		When the time is up without turning over a card the next team has its turn.</string>
+	<string name="instructions04">
+		The goal is to match more pairs of cards than the opposing teams. When cards are turned over, 
+		it is important to remember where they are for when the matching card is turned up later in the game.</string>
+	<string name="instructions05">How to start a game? First you have to join a game by clicking the lobby button. 
+		There you will see the other players who are interested in the game. You play LocPairs in teams of two players. 
+		These teams will be set automatically. To start a game you need an even number of players and at least four players. 
+		When each player has clicked the ready button the game starts. You see the outline of the building you are in. 
+		You can see the movement of you and your team mate on the card. You also can see the location of the other players. 
+		On the bottom of the display the count down is placed.</string>
+	<string name="instructions06"> There is also a special feature. If your team mate is not sure behind witch door the matching card is you 
+		can show it to him by pointing on it in the map. Only your partner can see it and is able to choose the 
+		right door even if you are in different parts of the building.</string>
+	<string name="instructions07">If you will end the game or your connection to the server breaks down your game will be quit. 
+		At the same time your partner gets the information that you left the game and is forced to end it too. 
+		The other players can continue the game.</string>
+</resources>

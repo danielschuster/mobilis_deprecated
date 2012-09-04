@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="lib/db4o-7.7.67.12023-full-java5.jar"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MobilisCommon"/>
+	<classpathentry kind="lib" path="/MobilisCommon/libs/smack.jar"/>
+	<classpathentry kind="lib" path="/MobilisCommon/libs/su-smack-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

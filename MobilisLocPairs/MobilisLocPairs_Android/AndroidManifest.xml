@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1" android:versionName="1.0" package="de.tud.android.mapbiq">
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:name="LocPairsApp" android:debuggable="true">
+		<activity android:name="de.tud.android.locpairs.LocPairs"
+			android:label="@string/app_name" android:theme="@style/Theme.LocPairs" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".locator.test.WifiScannerExample"></activity>
+		<activity android:name=".locator.test.WifiMapperExample"></activity>
+		<activity android:name=".locator.PositioningActivity"></activity>
+		<service android:name=".locator.WifiPositioningService"></service>
+		<activity android:name=".renderer.Menu"></activity>
+
+
+		<uses-library android:name="com.google.android.maps" />
+		<service android:name=".locator.GpsPositioningService"></service>
+
+		<activity android:label="@string/app_name" android:name=".loader.HelloLoader">
+		</activity>
+
+		<activity android:label="@string/addtab_name" android:name=".loader.WFSAdder">
+		</activity>
+		<activity android:label="@string/searchtab_name"
+			android:name=".loader.WFSSearcher">
+		</activity>
+		<activity android:label="@string/contab_name" android:name=".loader.WFSConnector">
+		</activity>
+
+
+		<!-- LocPairs -->
+		<activity
+			android:name="de.tud.android.locpairs.SettingsActivity"
+			android:theme="@style/Theme.LocPairs" android:noHistory="true" android:launchMode="singleTask"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name="de.tud.android.locpairs.LobbyActivity"
+			android:theme="@style/Theme.LocPairs" android:noHistory="true" android:launchMode="singleTask"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name="de.tud.android.locpairs.InRoundPlayingActivity"
+			android:theme="@style/Theme.LocPairs" android:launchMode="singleTask"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name="de.tud.android.locpairs.MapSettingsActivity"
+			android:theme="@style/Theme.LocPairs" android:noHistory="true" android:launchMode="singleTask"></activity>
+		<activity android:name="de.tud.android.locpairs.InstructionsActivity"
+			android:theme="@style/Theme.LocPairs" android:noHistory="true" android:launchMode="singleTask"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name="de.tud.android.locpairs.ScoreActivity"
+			android:theme="@style/Theme.LocPairs" android:noHistory="true" android:launchMode="singleTask"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name="de.tud.android.locpairs.GameInstancesActivity"
+			android:theme="@style/Theme.LocPairs" android:noHistory="true" android:launchMode="singleTask"
+			android:screenOrientation="portrait"></activity>
+		<service android:name="de.tud.android.locpairs.controller.GamingClient"  />
+		<service android:name="de.tud.android.locpairs.controller.LocPairsController" />
+			
+		<!-- Map ridiculous -->
+		<activity android:name="de.tud.android.mapbiq.renderer.Map"
+			android:theme="@style/Theme.LocPairs"></activity>
+		<activity android:name="de.tud.android.mapbiq.loader.HelloLoader"
+			></activity>
+		<activity android:name="de.tud.android.mapbiq.renderer.WFSAdder"
+			android:theme="@style/Theme.LocPairs"></activity>
+		<activity android:name="de.tud.android.mapbiq.renderer.WFSConnector"
+			android:theme="@style/Theme.LocPairs"></activity>
+		<activity android:name="de.tud.android.mapbiq.renderer.WFSSearcher"
+			android:theme="@style/Theme.LocPairs"></activity>
+		<activity android:name="de.tud.android.mapbiq.renderer.PositioningActivity"
+			android:theme="@style/Theme.LocPairs"></activity>
+		<activity android:name="de.tud.android.mapbiq.renderer.WifiMapperExample"
+			android:theme="@style/Theme.LocPairs"></activity>
+		<activity android:name="de.tud.android.mapbiq.renderer.WifiScannerExample"
+			android:theme="@style/Theme.LocPairs"></activity>
+
+
+	</application>
+
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_CELL_ID"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-sdk android:minSdkVersion="4"></uses-sdk>
+</manifest> 

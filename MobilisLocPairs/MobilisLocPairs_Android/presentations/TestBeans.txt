@@ -1,0 +1,71 @@
+<iq id="mobilis_19" to="server@141.30.203.90/Smack" from="alpha@141.30.203.90/MXA"
+	type="set">
+	<query xmlns="mobilislocpairs:iq:joingame">
+		<playerID>alpha@141.30.203.90/MXA</playerID>
+		<playerName>Alpha</playerName>
+		<location>
+			<latitude>0.0</latitude>
+			<longitude>0.0</longitude>
+			<altitude>0.0</altitude>
+		</location>
+	</query>
+</iq>
+
+<iq xmlns='jabber:client' id='2w5GS-5' to='alpha@141.30.203.90/MXA' type='set' from='norbert@141.30.203.90/MXA'>
+	<query xmlns='mobilislocpairs:iq:playerupdate'>
+		<players>
+			<player team='1' state='false' name='Beta' latitude='51.025827' longitude='13.722336' altitude='0.0'>beta@141.30.203.90/MXA</player>
+			<player team='1' state='false' name='Alpha' latitude='51.025825' longitude='13.722337' altitude='0.0'>alpha@141.30.203.90/MXA</player>
+			<player team='2' state='false' name='Gamma' latitude='51.025823' longitude='13.722338' altitude='0.0'>gamma@141.30.203.90/MXA</player>
+			<player team='2' state='false' name='Delta' latitude='51.025826' longitude='13.722339' altitude='0.0'>delta@141.30.203.90/MXA</player>
+		</players>
+		<result>true</result>
+	</query>
+</iq>
+
+
+<iq xmlns='jabber:client' id='7kqJw-13' to='alpha@141.30.203.90/MXA' type='set' from='norbert@141.30.203.90/MXA'>
+	<query xmlns='mobilislocpairs:iq:startgame'>
+		<gameID>hsdf</gameID>
+		<barcodes>
+			<barcode name='inf04' picture='memory01'>
+				<location>
+					<latitude>51.025820</latitude>
+					<longitude>13.722334</longitude>
+					<altitude>0.0</altitude>
+				</location>
+			</barcode>
+			<barcode name='inf03' picture='memory01'>
+				<location>
+					<latitude>51.025825</latitude>
+					<longitude>13.722336</longitude>
+					<altitude>0.0</altitude>
+				</location>
+			</barcode>
+			<barcode name='inf06' picture='memory02'>
+				<location>
+					<latitude>51.025827</latitude>
+					<longitude>13.722337</longitude>
+					<altitude>0.0</altitude>
+				</location>
+			</barcode>
+			<barcode name='inf05' picture='memory02'>
+				<location>	
+					<latitude>51.025829</latitude>
+					<longitude>13.722339</longitude>
+					<altitude>0.0</altitude>
+				</location>
+			</barcode>
+		</barcodes>
+	</query>
+</iq>
+
+<iq xmlns='jabber:client' id='7kqJw-13' to='alpha@141.30.203.90/MXA' type='set' from='norbert@141.30.203.90/MXA'>
+	<query xmlns='mobilislocpairs:iq:startround'>
+		<active>true</active>
+		<startTime>2011-01-24 16:05:00</startTime>
+		<duration>20000</duration>
+		<teamScore teamId="1">123</teamScore>
+		<teamScore teamId="2">124</teamScore>
+	</query>
+</iq>

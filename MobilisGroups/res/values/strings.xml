@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010 Technische Universität Dresden
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+  	http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
+  Dresden, University of Technology, Faculty of Computer Science
+  Computer Networks Group: http://www.rn.inf.tu-dresden.de
+  mobilis project: http://mobilisplatform.sourceforge.net
+-->
+<resources>
+    <string name="app_name">Mobilis Groups</string>
+    <string name="app_name_friendsactivity">Mobilis Groups - My friends</string>
+    <string name="app_name_groupcreateactivity">Mobilis Groups - Create new group</string>   
+    <string name="app_name_groupcreateactivity_update">Mobilis Groups - Update existing group</string>
+    <string name="app_name_groupinfoactivity">Mobilis Groups - Group information</string>
+    <string name="app_name_groupsactivity">Mobilis Groups - </string>
+    <string name="app_name_memberinfoactivity">Mobilis Groups - Member information</string>
+    <string name="app_name_prefactivity">Mobilis Groups - Preferences</string>
+    
+    <!-- MainActivity -->
+    <string name="layers_satellite">Satellite</string>
+    <string name="layers_foursquare">Foursquare</string>
+    <string name="layers_gowalla">Gowalla</string>
+    <string name="layers_osm">OSM ?</string>
+    
+    <!-- Menu -->
+    <string name="menu_pref">Settings</string>
+    <string name="menu_pref_xmpp">XMPP Settings</string>
+    <string name="menu_layers">Layers</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_friends">My Friends</string>
+    <string name="menu_groups">My Groups</string>
+    
+    <string name="menu_backtomap">Back to map</string>   
+ 
+    <string name="menu_groupinfo_join">Join this group</string>   
+    <string name="menu_groupinfo_chat">Group chat</string> 
+    <string name="menu_groupinfo_invite">Invite a friend</string> 
+    
+    <string name="menu_memberinfo_backtomap">Back to map</string>
+    <string name="menu_memberinfo_addtoroster">Add to roster</string>   
+    
+            
+    <string name="mxa_not_found">MXA not found. Please install.</string>
+    
+    <string name="spinner_type">Choose the type of the group.</string>
+    <string name="spinner_privacy">Choose the privacy mode.</string>
+     
+	<!-- GroupInfoActivity -->
+    <string name="groupinfo_joined">You joined the group.</string>
+    
+    <!-- MUC Activity -->
+    <string name="muc_button_send">Send</string>
+	<string name="muc_editor_hint">Type in here</string>
+      
+    <!-- Preferences -->
+    <string name="pref_title">Preferences</string>    
+    <string name="pref_communication">Communication with server</string>
+    <string name="pref_mobilisserver_key">server</string>
+    <string name="pref_mobilisserver_default">mobilis@robert-pc</string>
+    <string name="pref_mobilisserver_title">MobilisServer JID</string>
+    <string name="pref_mobilisserver_description">Enter the JID (XMPP-ID, without ressource) of the running MobilisServer (e.g. server@mobilis.rn.inf.tu-dresden.de) which provides all kind of mobilis services.</string>
+    <string name="pref_mobilisserver_summary">Mobilis Server manages your connection to the mobilis network</string>
+    <string name="pref_communication_autorefresh_title">Auto-refresh Groups</string>
+    <string name="pref_communication_autorefresh_key">autorefresh_groups</string>
+    <string name="pref_communication_autorefresh_summary">Automatically queries nearby groups from server on map change</string>
+    <string name="pref_communication_switch_title">Switch Grouping Service</string>
+    <string name="pref_communication_switch_key">switch</string>
+    <string name="pref_communication_switch_summary">Activate to switch to another Grouping Service.</string>
+
+	<string name="pref_overlays">Social network overlays</string>
+	<string name="pref_overlays_foursquare">Foursquare</string>
+	<string name="pref_overlays_foursquare_key">foursquare_active</string>
+	<string name="pref_overlays_foursquare_summary_on">The foursquare.com overlay is available in the list of layers.</string>
+	<string name="pref_overlays_foursquare_summary_off">The foursquare.com overlay is not available in the list of layers.</string>
+	<string name="pref_overlays_foursquare_limit">Foursquare Limit</string>
+	<string name="pref_overlays_foursquare_limit_key">foursquare_limit</string>
+	<string name="pref_overlays_foursquare_limit_summary">The maximum number of venues to get from foursquare</string>
+	<string name="pref_overlays_foursquare_limit_description">Enter the maximum number of venues to get from foursquare. default: 10. maximum: 50.</string>
+	<string name="pref_overlays_foursquare_autorefresh_title">Foursquare auto-refresh</string>
+    <string name="pref_overlays_foursquare_autorefresh_key">autorefresh_foursquare</string>
+    <string name="pref_overlays_foursquare_autorefresh_summary">Automatically queries nearby venues on map change</string>
+	<string name="pref_overlays_gowalla">Gowalla</string>
+	<string name="pref_overlays_gowalla_key">gowalla_active</string>
+	<string name="pref_overlays_gowalla_summary_on">Disable to make the gowalla.com overlay no longer be available</string>
+	<string name="pref_overlays_gowalla_summary_off">Enable to make the gowalla.com overlay be available as a layer</string>
+	<string name="pref_overlays_gowalla_user">Gowalla username</string>
+	<string name="pref_overlays_gowalla_user_summary">required for Gowalla API</string>
+	<string name="pref_overlays_gowalla_pass">Gowalla password</string>
+	<string name="pref_overlays_gowalla_pass_summary">required for Gowalla API</string>
+	
+	<string name="pref_personal_information">Personal information</string>
+	<string name="pref_personal_information_realname_key">realname</string>
+	<string name="pref_personal_information_realname_title">Real name</string>
+	<string name="pref_personal_information_realname_summary"></string>
+	<string name="pref_personal_information_realname_message">Enter your real name. It will be visible to all your friends.</string>
+	<string name="pref_personal_information_realname_dialog_title">Enter real name</string>
+	<string name="pref_personal_information_realname_default"></string>
+	<string name="pref_personal_information_age_key">age</string>
+	<string name="pref_personal_information_age_title">Age</string>
+	<string name="pref_personal_information_age_summary"></string>
+	<string name="pref_personal_information_age_message">Enter your age. It will be visible to all your friends.</string>
+	<string name="pref_personal_information_age_dialog_title">Enter age</string>
+	<string name="pref_personal_information_age_default"></string>
+	<string name="pref_personal_information_city_key">city</string>
+	<string name="pref_personal_information_city_title">Home town</string>
+	<string name="pref_personal_information_city_summary"></string>
+	<string name="pref_personal_information_city_message">Enter your home town. It will be visible to all your friends.</string>
+	<string name="pref_personal_information_city_dialog_title">Enter home town</string>
+	<string name="pref_personal_information_city_default"></string>
+	<string name="pref_personal_information_email_key">email</string>
+	<string name="pref_personal_information_email_title">Email address</string>
+	<string name="pref_personal_information_email_summary"></string>
+	<string name="pref_personal_information_email_message">Enter your email address. It will be visible to all your friends.</string>
+	<string name="pref_personal_information_email_dialog_title">Enter email address</string>
+	<string name="pref_personal_information_email_default"></string>
+	<string name="pref_personal_information_homepage_key">homepage</string>
+	<string name="pref_personal_information_homepage_title">Homepage</string>
+	<string name="pref_personal_information_homepage_summary"></string>
+	<string name="pref_personal_information_homepage_message">Enter the URL to your homepage. It will be visible to all your friends.</string>
+	<string name="pref_personal_information_homepage_dialog_title">Enter homepage URL</string>
+	<string name="pref_personal_information_homepage_default">http://</string>
+	
+	
+
+
+<string name="pref_service_autostart_title">Autostart services</string>
+<string name="pref_service_autostart_summary">All media and file sharing services are launched on application startup.</string>
+<string name="pref_transfer">File transfer settings</string>
+<string name="pref_transfer_blocksize_title">Block size</string>
+<string name="pref_transfer_blocksize_description">The block size specifies how many bytes are transferred until the user gets a feedback about the progress of the transfer, i.e. using a progress bar in the notification window.</string>
+<string name="pref_transfer_blocksize_summary">Number of bytes transferred once in-a-row.</string>
+<string name="pref_transfer_directory_title">Local directory</string>
+<string name="pref_transfer_directory_description">Specify here a directory where to store incoming files into and from which to send files to peers. Do NOT enter any trailing \'/\'.</string>
+<string name="pref_transfer_directory_summary">Target directory for incoming transfers and local browsing.</string>
+<string name="pref_transfer_timeout_title">Outgoing reply timeout</string>
+<string name="pref_transfer_timeout_description">This is the time in seconds the file transfer service will wait for the peer to accept the incoming file transfer.</string>
+<string name="pref_transfer_timeout_summary">Time in seconds to wait for a reply.</string>
+    
+</resources>

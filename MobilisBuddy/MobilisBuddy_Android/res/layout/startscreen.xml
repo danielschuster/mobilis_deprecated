@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/start_txt_status"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+	<Button android:id="@+id/start_btn_connect"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Connect" />
+
+	<Button android:id="@+id/start_btn_creategroup"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Create MocoGroup" />
+
+	<Button android:id="@+id/start_btn_joingroup"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Join MocoGroup" />
+
+	<Button android:id="@+id/start_btn_startchat"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Start Chat" />
+
+</LinearLayout>

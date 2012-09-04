@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		android:versionCode="1" android:versionName="1.0"
+		package="de.tudresden.inf.rn.mobilis.media">
+
+    <application android:label="@string/app_name" android:icon="@drawable/repository_icon" android:debuggable="true">
+
+		<uses-library android:name="com.google.android.maps" />
+        
+		<activity android:label="@string/app_name" android:name=".activities.SendActivity">
+			<intent-filter android:label="@string/send_via_xmpp" android:icon="@drawable/send_via_xmpp_icon">
+				<action android:name="android.intent.action.SEND"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+				<data android:mimeType="image/*"></data>
+			</intent-filter>
+		<intent-filter><action android:name="de.tudresden.inf.rn.mobilis.media.intent.SEND"></action>
+<category android:name="android.intent.category.DEFAULT"></category>
+</intent-filter>
+</activity>
+    
+    	<activity android:icon="@drawable/send_via_xmpp_icon" android:label="@string/media_transfer_manager" android:name=".activities.TransferActivity">
+			<intent-filter android:label="@string/send_via_xmpp" android:icon="@drawable/send_via_xmpp_icon">
+				<action android:name="de.tudresden.inf.rn.mobilis.media.intent.CHECK_TRANSFER"></action>
+				<category android:name="android.intent.category.DEFAULT"></category>
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".activities.PreferencesActivity"></activity>
+		
+		<service android:name=".services.TransferService">
+			<intent-filter android:label="@string/send_via_xmpp">
+				<action android:name="de.tudresden.inf.rn.mobilis.media.intent.SEND_TO_JID"></action>
+			</intent-filter>
+			<intent-filter android:label="@string/send_via_xmpp">
+				<action android:name="de.tudresden.inf.rn.mobilis.media.intent.SEND_TO_REP"></action>
+			</intent-filter>
+		<intent-filter><action android:name="de.tudresden.inf.rn.mobilis.media.services.ITransferService"></action>
+</intent-filter>
+</service>
+
+		<service android:name=".services.RepositoryService"><intent-filter><action android:name="de.tudresden.inf.rn.mobilis.media.services.IRepositoryService"></action>
+</intent-filter>
+</service>
+
+		<activity android:name=".activities.ConcreteRepositoryActivity" android:icon="@drawable/repository_icon"
+				android:label="@string/repository_browse">
+			<intent-filter android:icon="@drawable/repository_icon" android:label="@string/repository_browse">
+				<category android:name="android.intent.category.LAUNCHER"></category>
+				<action android:name="android.intent.action.MAIN"></action>
+			</intent-filter>
+		</activity>
+
+	<activity android:name=".activities.RepositoryListActivity"></activity>
+<activity android:name=".activities.RepositoryMapActivity"></activity>
+<activity android:name=".activities.RepositoryItemActivity"><intent-filter android:label="@string/repository_browse"><action android:name="de.tudresden.inf.rn.mobilis.media.intent.DISPLAY_REPOSITORYITEM"></action>
+<category android:name="android.intent.category.DEFAULT"></category>
+</intent-filter>
+</activity>
+</application>
+
+    <uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest> 

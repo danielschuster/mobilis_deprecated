@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout style="@style/TitleBar">
+		<TextView style="@style/TitleBarText" android:text=""
+			android:id="@+id/tv_points_id" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<View style="@style/TitleBarSpring" />
+
+
+		<ImageView android:id="@+id/tv_team_id_bmp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<ProgressBar style="@style/TitleBarProgressIndicator"
+			android:id="@+id/title_refresh_progress" android:visibility="gone" />
+		
+		<ImageView style="@style/TitleBarSeparator" />
+		<ImageButton style="@style/TitleBarAction"
+			android:contentDescription="@string/description_chat" android:src="@drawable/title_chat"
+			android:id="@+id/btn_title_gothere" android:onClick="onGoThereClick" />	
+		
+		<ImageView style="@style/TitleBarSeparator" />
+		<ImageButton style="@style/TitleBarAction"
+			android:contentDescription="@string/description_chat" android:src="@drawable/title_scan"
+			android:id="@+id/btn_title_scan" android:onClick="onScanClick" android:visibility="invisible"/>
+		<!-- <ImageView style="@style/TitleBarSeparator" /> <ImageButton style="@style/TitleBarAction" 
+			android:id="@+id/btn_title_refresh" android:contentDescription="@string/description_refresh" 
+			android:src="@drawable/title_refresh" android:onClick="onRefreshClick" /> -->
+		<!-- <ImageView style="@style/TitleBarSeparator" /> <ImageButton style="@style/TitleBarAction" 
+			android:contentDescription="@string/description_chat" android:src="@drawable/title_chat" 
+			android:onClick="onChatClick" /> -->
+
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+		<com.google.android.maps.MapView
+			android:id="@+id/mapPlaying" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:clickable="true"
+			android:apiKey="09_hOWEsl2Foba5vONQqGbuBgkKBBfXcTiNfnrQ" />
+
+		<!-- stefan android:apiKey="09_hOWEsl2Foba5vONQqGbuBgkKBBfXcTiNfnrQ" -->
+		<!-- norbert android:apiKey="" -->
+		<!-- reik android:apiKey="" -->
+		<!-- beatrice android:apiKey="" -->
+		<!-- tobias android:apiKey="0vZZK7mS4Io_jSHP75HZW5nMtx1f_8p_CrpLnJA" -->
+		<!-- benjamin android:apiKey="" -->
+		<!-- tobi uni android:apiKey="0vZZK7mS4Io-AXo0m7XXULZ2bY2dstBIsZE4XQw" -->
+
+	</LinearLayout>
+
+	<LinearLayout style="@style/TitleBar">
+
+		<TextView style="@style/TitleBarText" android:text="wait for game start"
+			android:id="@+id/tv_remaining_time" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView style="@style/TitleBarText" android:text=""
+			android:id="@+id/tv_current_team_id" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<ImageView android:id="@+id/tv_current_team_id_bmp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+</LinearLayout>

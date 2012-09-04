@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding="ISO-8859-1" ?>
+<WFS_Capabilities 
+   version="1.0.0" 
+   updateSequence="0" 
+   xmlns="http://www.opengis.net/wfs" 
+   xmlns:ogc="http://www.opengis.net/ogc" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.0.0/WFS-capabilities.xsd">
+
+<!-- MapServer version 5.2.1 OUTPUT=GIF OUTPUT=PNG OUTPUT=JPEG OUTPUT=WBMP OUTPUT=PDF OUTPUT=SWF OUTPUT=SVG SUPPORTS=PROJ SUPPORTS=AGG SUPPORTS=FREETYPE SUPPORTS=ICONV SUPPORTS=FRIBIDI SUPPORTS=WMS_SERVER SUPPORTS=WMS_CLIENT SUPPORTS=WFS_SERVER SUPPORTS=WFS_CLIENT SUPPORTS=WCS_SERVER SUPPORTS=SOS_SERVER SUPPORTS=FASTCGI SUPPORTS=THREADS SUPPORTS=GEOS SUPPORTS=RGBA_PNG INPUT=JPEG INPUT=POSTGIS INPUT=OGR INPUT=GDAL INPUT=SHAPEFILE -->
+
+<Service>
+  <Name>MapServer WFS</Name>
+  <Title>Indoor Information Server Fakultät Informatik TUD</Title>
+  <OnlineResource>http://carlos.inf.tu-dresden.de/cgi-bin/mapserv.exe?MAP=tud_inf.map&amp;</OnlineResource>
+</Service>
+
+<Capability>
+  <Request>
+    <GetCapabilities>
+      <DCPType>
+        <HTTP>
+          <Get onlineResource="http://carlos.inf.tu-dresden.de/cgi-bin/mapserv.exe?MAP=tud_inf.map&amp;" />
+        </HTTP>
+      </DCPType>
+      <DCPType>
+        <HTTP>
+          <Post onlineResource="http://carlos.inf.tu-dresden.de/cgi-bin/mapserv.exe?MAP=tud_inf.map&amp;" />
+        </HTTP>
+      </DCPType>
+    </GetCapabilities>
+    <DescribeFeatureType>
+      <SchemaDescriptionLanguage>
+        <XMLSCHEMA/>
+      </SchemaDescriptionLanguage>
+      <DCPType>
+        <HTTP>
+          <Get onlineResource="http://carlos.inf.tu-dresden.de/cgi-bin/mapserv.exe?MAP=tud_inf.map&amp;" />
+        </HTTP>
+      </DCPType>
+      <DCPType>
+        <HTTP>
+          <Post onlineResource="http://carlos.inf.tu-dresden.de/cgi-bin/mapserv.exe?MAP=tud_inf.map&amp;" />
+        </HTTP>
+      </DCPType>
+    </DescribeFeatureType>
+    <GetFeature>
+      <ResultFormat>
+        <GML2/>
+      </ResultFormat>
+      <DCPType>
+        <HTTP>
+          <Get onlineResource="http://carlos.inf.tu-dresden.de/cgi-bin/mapserv.exe?MAP=tud_inf.map&amp;" />
+        </HTTP>
+      </DCPType>
+      <DCPType>
+        <HTTP>
+          <Post onlineResource="http://carlos.inf.tu-dresden.de/cgi-bin/mapserv.exe?MAP=tud_inf.map&amp;" />
+        </HTTP>
+      </DCPType>
+    </GetFeature>
+  </Request>
+</Capability>
+
+<FeatureTypeList>
+  <Operations>
+    <Query/>
+  </Operations>
+    <FeatureType>
+        <Name>TUD_INF_G</Name>
+        <Title>Grundriss</Title>
+        <SRS>EPSG:4326</SRS>
+        <LatLongBoundingBox minx="13.7222" miny="51.025" maxx="13.7237" maxy="51.0259" />
+    </FeatureType>
+    <FeatureType>
+        <Name>TUD_INF_E0</Name>
+        <Title>Etage 0</Title>
+        <SRS>EPSG:4326</SRS>
+        <LatLongBoundingBox minx="13.7222" miny="51.025" maxx="13.7237" maxy="51.0259" />
+    </FeatureType>
+    <FeatureType>
+        <Name>TUD_INF_E0-WLAN</Name>
+        <Title>WLAN Access Points Etage 0</Title>
+        <SRS>EPSG:4326</SRS>
+        <LatLongBoundingBox minx="13.7222" miny="51.025" maxx="13.7236" maxy="51.0258" />
+    </FeatureType>
+</FeatureTypeList>
+
+<ogc:Filter_Capabilities>
+  <ogc:Spatial_Capabilities>
+    <ogc:Spatial_Operators>
+      <ogc:Equals/>
+      <ogc:Disjoint/>
+      <ogc:Touches/>
+      <ogc:Within/>
+      <ogc:Overlaps/>
+      <ogc:Crosses/>
+      <ogc:Intersect/>
+      <ogc:Contains/>
+      <ogc:DWithin/>
+      <ogc:BBOX/>
+    </ogc:Spatial_Operators>
+  </ogc:Spatial_Capabilities>
+  <ogc:Scalar_Capabilities>
+    <ogc:Logical_Operators />
+    <ogc:Comparison_Operators>
+      <ogc:Simple_Comparisons />
+      <ogc:Like />
+      <ogc:Between />
+    </ogc:Comparison_Operators>
+  </ogc:Scalar_Capabilities>
+</ogc:Filter_Capabilities>
+
+</WFS_Capabilities>

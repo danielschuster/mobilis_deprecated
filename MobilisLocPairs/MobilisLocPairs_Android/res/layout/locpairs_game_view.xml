@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="?android:attr/listPreferredItemHeight"
+   android:padding="8dip">  
+   
+   	<ImageView android:id="@+id/GameImage" 
+    android:layout_width="wrap_content"
+   	android:layout_height="wrap_content"
+   	android:layout_marginRight="15dip"
+   	android:clickable="false"
+   	android:layout_alignParentTop="true"
+   	android:layout_alignParentLeft="true"
+	android:contentDescription="@string/description_logo" 
+	android:src = "@drawable/icon"/>
+	
+	<TextView android:id="@+id/OwnerTextView"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_alignParentTop="true"
+	android:layout_toRightOf ="@+id/GameImage"
+	android:paddingTop="4dip">
+	</TextView>
+	
+	<TextView android:id="@+id/PlayerTextView"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_toRightOf ="@+id/GameImage"
+	android:layout_alignParentBottom="true">
+	</TextView>
+
+ </RelativeLayout>

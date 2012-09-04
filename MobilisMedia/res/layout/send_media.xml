@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" android:id="@+id/transfer_layout">
+
+	<LinearLayout android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:id="@+id/description_layout">
+		<TextView android:layout_height="wrap_content"
+				android:text="@string/description_label"
+				android:layout_width="wrap_content"
+				android:id="@+id/description_text"
+				android:layout_marginRight="10dip"
+				android:layout_marginLeft="5dip"
+				android:paddingRight="2dip">
+			</TextView>
+		<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/description_edit"
+				android:layout_weight="1">
+			</EditText>
+	</LinearLayout>
+
+
+	<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/target_text"
+			android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip"
+			android:layout_marginTop="5dip"
+			android:layout_marginBottom="5dip"
+			android:text="@string/pick_jid_label">
+		</TextView>
+
+	<ListView android:layout_height="wrap_content"
+			android:id="@+id/target_list"
+			android:layout_weight="1"
+			android:layout_width="fill_parent">
+		</ListView>
+
+	<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button_layout"
+			android:background="@android:drawable/bottom_bar"
+			android:orientation="horizontal">
+		<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/send_button"
+				android:text="@string/send_button"
+				android:layout_weight="1" android:enabled="false">
+			</Button>
+		<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/cancel_button"
+				android:text="@string/cancel_button"
+				android:layout_weight="1">
+			</Button>
+	</LinearLayout>
+
+</LinearLayout>

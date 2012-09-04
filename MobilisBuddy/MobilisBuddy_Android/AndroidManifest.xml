@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="de.tudresden.inf.rn.mobilis.android">
+	<application android:icon="@drawable/icon_androidbuddy64">
+		<uses-library android:name="com.google.android.maps" />
+		<activity android:label="@string/app_name" android:name="ChatActivity">
+		</activity>
+		<activity android:name="MainView" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN">
+				</action>
+				<category android:name="android.intent.category.LAUNCHER">
+				</category>
+			</intent-filter>
+		</activity>
+		<activity android:label="@string/app_name" android:name="LocationMapActivity">
+		</activity>
+		<activity android:name="EditPlaceActivity" android:label="@string/editplace_title">
+		</activity>
+		<activity android_label="@string/app_name" android:name=".buddylist.BuddyList">
+		</activity>
+	<activity android:icon="@drawable/icon" android:name="PreferencesClient" android:label="@string/pref_title"></activity>
+
+<activity android:label="@string/acc_act_title" android:name="AccountsActivity"></activity>
+<activity android:name="ConnectionsActivity" android:label="@string/cons_act_title"></activity>
+<activity android:label="@string/accedit_act_title" android:name="AccountEditActivity"></activity>
+
+</application>
+	<uses-permission android:name="android.permission.CALL_PHONE">
+	</uses-permission>
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+		android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
+		android:name="android.permission.INTERNET"></uses-permission>
+
+<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+<uses-sdk android:minSdkVersion="1"></uses-sdk>
+</manifest>

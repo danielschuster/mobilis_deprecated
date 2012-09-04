@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/mainlay"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:layout_weight="1">
+		<ImageView android:id="@+id/onlinebutton"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:src="@drawable/presence_online" android:padding="15px" />
+		<TextView android:id="@+id/buddylist_buddyname"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textSize="18sp" android:paddingTop="13px"
+			android:paddingRight="8px" android:ellipsize="end" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<smackProviders>
+	<iqProvider>
+		<elementName>query</elementName>
+		<namespace>locpairs:iq:test</namespace>
+		<className>testimplementation.TestIQProvider</className>
+	</iqProvider>
+	<iqProvider>
+		<elementName>query</elementName>
+		<namespace>mobilisxhunt:iq:gameover</namespace>
+		<className>testimplementation.GameOverIQProvider</className>
+	</iqProvider>
+</smackProviders>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/acc_act_lay1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/acc_act_lay2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:layout_weight="1">
+		<TextView android:id="@+id/acc_act_txt_storage"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/acc_act_txt_storage" android:paddingTop="5px"
+			android:paddingBottom="5px" android:paddingLeft="5px">
+		</TextView>
+
+		<LinearLayout android:id="@+id/acc_act_lay9"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:paddingLeft="5px">
+
+			<!-- grouping listview and textview for empty list display -->
+			<LinearLayout android:id="@+id/acc_act_acclistgrp"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1" android:background="#444444">
+				<ListView android:id="@+id/android:list"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:background="#444444" android:layout_weight="1"
+					android:choiceMode="singleChoice" android:focusableInTouchMode="true"
+					android:focusable="true">
+				</ListView>
+				<TextView android:id="@+id/android:empty"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"
+					android:text="@string/acc_act_empty_storage" android:layout_weight="1"
+					android:background="#444444" />
+			</LinearLayout>
+
+			<!-- Buttons for editing accounts -->
+			<LinearLayout android:id="@+id/acc_act_lay10"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<ImageButton android:id="@+id/acc_act_btn_new"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/btn_add" />
+				<ImageButton android:id="@+id/acc_act_btn_edit"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/btn_edit" />
+				<ImageButton android:id="@+id/acc_act_btn_del"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/btn_del" />
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/acc_act_lay4"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button android:id="@+id/acc_act_btn_autocon"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/acc_act_btn_autocon" android:layout_weight="1"
+				android:layout_marginTop="5px" android:textStyle="bold"
+				>
+			</Button>
+			<Button android:id="@+id/acc_act_btn_selcon"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/acc_act_btn_selcon" android:layout_weight="1"
+				android:layout_marginTop="5px">
+			</Button>
+		</LinearLayout>
+		<ImageView android:id="@android:drawable/divider_horizontal_dark"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:src="@drawable/panel_separator9" layout_marginTop="5px" />
+	</LinearLayout>
+
+	<!-- Bottom buttons -->
+	<LinearLayout android:id="@+id/acc_act_lay8"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="#999999">
+		<!--
+		<Button android:id="@+id/acc_act_btn_reset"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/acc_act_btn_reset" android:layout_weight="1"
+			android:textSize="13sp" android:textColor="#555555"
+			android:layout_marginTop="5px">
+		</Button>
+		-->
+		<Button android:id="@+id/acc_act_btn_back"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/acc_act_btn_back" android:layout_weight="1"
+			android:textSize="13sp" android:textColor="#555555"
+			android:layout_marginTop="5px" style="?android:attr/buttonStyleSmall">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

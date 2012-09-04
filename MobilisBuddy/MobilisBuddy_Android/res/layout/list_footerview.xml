@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/list_footer"
+	android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="54px" android:orientation="horizontal"
+	android:background="@drawable/bottom_bar"
+	android:gravity="center_vertical" android:layout_weight="1">
+	<Button android:id="@+id/createplace_bottom_btn_save"
+		android:layout_width="120px" android:layout_height="wrap_content"
+		android:text="@string/save" />
+	<Button android:id="@+id/createplace_bottom_btn_cancel"
+		android:layout_width="120px" android:layout_height="wrap_content"
+		android:text="@string/cancel" />
+</LinearLayout>

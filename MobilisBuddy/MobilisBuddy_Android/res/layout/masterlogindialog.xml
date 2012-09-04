@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="250px"
+	android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/masterlogin_dlg_txt"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/masterlogin_dlg_txt"
+		android:layout_marginTop="10px"
+		android:layout_marginLeft="8px"/>
+
+	<EditText android:id="@+id/masterlogin_dlg_edit_password"
+		android:singleLine="true" android:lines="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:capitalize="none"
+		android:scrollHorizontally="false" android:password="true" 
+		android:layout_marginTop="10px"
+		android:layout_marginLeft="7px"/>
+
+	<Button android:id="@+id/masterlogin_dlg_btn_autocon"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/masterlogin_dlg_btn_autocon"
+		android:textStyle="bold"
+		android:layout_marginTop="10px" 
+		android:layout_marginLeft="5px"/>
+	
+	<Button android:id="@+id/masterlogin_dlg_btn_resetpwd"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/masterlogin_dlg_btn_resetpwd"
+		android:layout_marginLeft="5px"/>
+
+</LinearLayout>
